@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: #b89c9c;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* Aligns display and keys in a column */
+    gap: 20px;
+    /* Space between display and keys */
+    padding: 20px;
+    /* Inner spacing of the calculator */
+}
+
+#display {
+    width: 100px;
+    padding: 50px;
+    font-size: srem;
+    text-align: left;
+    border: none;
+    background-color: #beb6b6;
+    color: #a71515;
+    size: 10px;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(62, 57, 57);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.operator-btn {
+    background-color: aqua;
+}
+
+.operator-btn {
+    background-color: aqua;
+}
+
+.operator-btn {
+    background-color: aqua;
+}
+
+.operator-btn:hover {
+    background-color: rgb(79, 118, 118);
+}
+
+.operator-btn:hover {
+    background-color: rgb(79, 118, 118);
+}
+
+.operator-btn:active {
+    background-color: rgb(146, 176, 176);
+}
